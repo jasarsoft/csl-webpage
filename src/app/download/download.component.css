@@ -1,14 +1,16 @@
 .header-panel {
     background-image: url(https://columbia-state.com/Themes/Weiss-X-new/images/nanek/gornji.jpg);
-    height: 250px;
+    height: 270px;
     background-size: cover;
 }
 
 .header-text {
     float: right;
     text-align: right;
-    padding: 3em 26em;
+    padding: 3em 0;
 }
+
+
 
 .header-text h5 {
     color: rgb(238, 238, 238);
@@ -37,8 +39,8 @@
     border-bottom: none;
 }
 
-.about-launcher, .about-cs {
-    padding: 7em 26em;
+.about-launcher {
+    padding: 7em 0;
 }
 
 .about-launcher {
@@ -107,10 +109,13 @@
 
 .about-cs {
     background-color: #c00b35;
+    text-align: center;
+    padding: 4em 0;
 }
 
 .about-cs p {
     color: #fff;
+    font-style: italic;
 }
 
 .footer {
@@ -127,12 +132,20 @@
     font-weight: 300;
 }
 
+.footer h5:hover{
+    color: #b0afb0;
+}
+
 .footer h6 {
     color: #fff;
     text-transform: uppercase;
     font-size: .7em;
     letter-spacing: 1px;
     font-weight: 300;
+}
+
+.test {
+    border: 1px solid black;
 }
 
 
