@@ -9,8 +9,8 @@
               <img src="" alt="" />
             </div>
             <div class="header-text">
-              <h1>Columbia State</h1>
-              <h5>Dobrodosli neki text</h5>
+              <h1>{{ serverName }}</h1>
+              <h5>{{ serverSlogan }}</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, tenetur id soluta facilis vel accusamus,
                 qui non dolorum eius ipsa est esse in ratione dolore perspiciatis vero distinctio, autem quas!</p>
             </div>
@@ -40,8 +40,9 @@
         <div class="row">
           <div class="col"></div>
           <div class="col-6">
-            <button type="button" class="btn btn-download">Download launcher</button>
-            <h6>setup-cs.exe | 28.7 mb</h6>
+            <button  (click)="goToDownload()" type="button" class="btn btn-download">Download launcher</button>
+            <h6 *ngIf="downloaded">{{ toastMsg }}</h6>
+            <h6>{{ fileName }} | {{ fileSize }} mb</h6>
           </div>
           <div class="col"></div>
         </div>

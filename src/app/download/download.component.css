@@ -117,7 +117,8 @@
 }
 
 .footer {
-    background-color: #292929;
+    background-image: url(https://columbia-state.com/Themes/Weiss-X-new/images/nanek/likovi.png);
+    background-repeat: repeat-x;
     padding: 3em 0;
     text-align: center;
 }
