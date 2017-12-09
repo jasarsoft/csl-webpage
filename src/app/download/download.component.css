@@ -10,8 +10,6 @@
     padding: 3em 0;
 }
 
-
-
 .header-text h5 {
     color: rgb(238, 238, 238);
     text-transform: uppercase;
@@ -146,6 +144,16 @@
 
 .test {
     border: 1px solid black;
+}
+
+.forum-link a  {
+    color: #fff;
+}
+
+.forum-link h6:hover, .forum-link a:hover  {
+    color: #b0afb0 !important;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 
