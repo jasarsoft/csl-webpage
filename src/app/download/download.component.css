@@ -1,13 +1,13 @@
 .header-panel {
     background-image: url(https://columbia-state.com/Themes/Weiss-X-new/images/nanek/gornji.jpg);
     height: 270px;
+    line-height: 100px;
     background-size: cover;
 }
 
 .header-text {
-    float: right;
-    text-align: right;
-    padding: 3em 0;
+    text-align: center;
+
 }
 
 .header-text h5 {
@@ -16,11 +16,6 @@
     font-size: .9em;
     letter-spacing: 1px;
     font-weight: 400;
-}
-
-.header-text p {
-    color: #fff;
-    font-weight: 500;
 }
 
 .header-text h1 {
@@ -99,6 +94,10 @@
     font-style: italic;
     margin: 5px 0;
     font-size: .7em;
+}
+
+.download h6:hover {
+    color: #808080;
 }
 
 .edge-red {
