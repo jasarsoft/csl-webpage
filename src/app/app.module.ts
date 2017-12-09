@@ -3,16 +3,18 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DownloadComponent } from './download/download.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DownloadComponent
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [DownloadComponent]
 })
 export class AppModule { }
