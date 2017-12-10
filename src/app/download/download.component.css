@@ -7,7 +7,6 @@
 
 .header-text {
     text-align: center;
-
 }
 
 .header-text h5 {
@@ -18,7 +17,7 @@
     font-weight: 400;
 }
 
-.header-text h1 {
+.header-text h1, .about-cs h1 {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -121,6 +120,7 @@
 .about-cs p {
     color: #fff;
     font-style: italic;
+    margin-top: 30px;
 }
 
 .footer {
@@ -156,6 +156,10 @@
 
 .forum-link a  {
     color: #fff;
+}
+
+.forum-link h6 {
+    font-size: .5em;
 }
 
 .forum-link h6:hover, .forum-link a:hover  {

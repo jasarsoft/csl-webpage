@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { DownloadComponent } from './download/download.component';
+import { ServerInfoService } from './server-info.service';
 
 
 @NgModule({
@@ -14,7 +15,7 @@ import { DownloadComponent } from './download/download.component';
   imports: [
     BrowserModule
   ],
-  providers: [],
+  providers: [ServerInfoService],
   bootstrap: [DownloadComponent]
 })
 export class AppModule { }
