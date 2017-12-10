@@ -32,24 +32,24 @@ export class DownloadComponent implements OnInit {
   toastMsg: string;
 
   constructor(private _info: ServerInfoService) {
-   this.setInfo(_info);  
+   this.setInfo();  
   }
 
   ngOnInit() {
   }
 
-  setInfo(_info: ServerInfoService): void {
-    this.loremIpsum = _info.loremIpsum;
-    this.uputstvoTitle = _info.uputstvoTitle;
-    this.uputstvoSubtitle = _info.uputstvoSubtitle;
-    this.launcherName = _info.launcherName;
-    this.launcherVersion = _info.launcherVersion;
-    this.launcherReleased = _info.launcherReleased;
-    this.downloadUrl = _info.downloadUrl;
-    this.fileSize = _info.fileSize;
-    this.fileName = _info.fileName;
-    this.serverName = _info.serverName;
-    this.serverSlogan = _info.serverSlogan;
+  setInfo(): void {
+    this.loremIpsum = this._info.loremIpsum;
+    this.uputstvoTitle = this._info.uputstvoTitle;
+    this.uputstvoSubtitle = this._info.uputstvoSubtitle;
+    this.launcherName = this._info.launcherName;
+    this.launcherVersion = this._info.launcherVersion;
+    this.launcherReleased = this._info.launcherReleased;
+    this.downloadUrl = this._info.downloadUrl;
+    this.fileSize = this._info.fileSize;
+    this.fileName = this._info.fileName;
+    this.serverName = this._info.serverName;
+    this.serverSlogan = this._info.serverSlogan;
   }
 
   goToDownload(): void {
