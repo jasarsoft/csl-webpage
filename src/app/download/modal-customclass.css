@@ -1,0 +1,40 @@
+.dark-modal .modal-content {
+    background-color: #292b2c;
+    color: white;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.dark-modal .close {
+    color: white;   
+}
+
+.btn-changelog {
+    text-transform: uppercase;
+    padding: 10px 50px;
+    background: transparent;
+    border: 1px solid #292b2c;
+    -webkit-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-changelog:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #c00b35;
+    cursor: pointer; 
+}
+
+.date h6 {
+    color: #fff;
+    font-size: .7em;
+}

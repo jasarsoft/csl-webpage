@@ -1,0 +1,21 @@
+<ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-header">
+        <h4 class="modal-title">Launcher Changelog</h4>
+        <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <! -- dodaj u listi stvari koje su dodate -->
+        <ul class="changelog-list" *ngFor="let clog of changeLog">
+            <li>{{ clog }}</li>
+        </ul>
+    </div>
+    <div class="modal-footer">
+        <div class="date">
+            <h6>v1.0 Alpha - 30.12.2017</h6>
+        </div>
+    </div>
+</ng-template>
+
+<button class="btn btn-changelog" (click)="open(content)">Changelog</button>

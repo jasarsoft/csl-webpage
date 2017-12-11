@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ServerInfoService } from '../server-info.service';
 
-
 @Component({
   selector: 'app-download',
   templateUrl: './download.component.html',
