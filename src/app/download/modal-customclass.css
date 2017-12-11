@@ -1,6 +1,14 @@
+.modal-content {
+    padding: 30px 30px;
+}
+
 .dark-modal .modal-content {
     background-color: #292b2c;
     color: white;
+}
+
+.modal-header {
+    padding: 0 0;
 }
 
 .modal-header {
@@ -9,10 +17,15 @@
 
 .modal-footer {
     border-top: none;
+    padding: 0 0;
 }
 
 .dark-modal .close {
     color: white;   
+}
+
+.modal-body {
+    padding: 2em 0 0 0;
 }
 
 .btn-changelog {
@@ -36,5 +49,20 @@
 
 .date h6 {
     color: #fff;
+    font-size: .85em;
+    letter-spacing: .1em;
+}
+
+.changelog-list {
+    list-style-type: decimal;
+    margin-bottom: 2em;
+}
+
+.changelog-list li {
     font-size: .7em;
+    margin: 0 0 1em 0;
+}
+
+.changelog-list>li:nth-child(even) {
+    color: #c4c4c4;
 }
