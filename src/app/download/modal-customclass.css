@@ -31,8 +31,10 @@
 .btn-changelog {
     text-transform: uppercase;
     padding: 10px 50px;
+    color: #B22222;
+    margin-top: 1.5em;
     background: transparent;
-    border: 1px solid #292b2c;
+    border: 1px solid #B22222;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     -ms-transition: all .3s ease-in-out;
@@ -43,7 +45,7 @@
 .btn-changelog:hover {
     color: #fff;
     border: 1px solid #fff;
-    background-color: #c00b35;
+    background-color: #B22222;
     cursor: pointer; 
 }
 

@@ -69,7 +69,8 @@
 }
 
 .btn-download {
-    border: 1px solid black;
+    border: 1px solid #B22222;
+    color: #B22222;
     padding: 20px 120px;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -84,7 +85,7 @@
 .btn-download:hover {
     color: #fff;
     border: 1px solid #fff;
-    background-color: #c00b35;
+    background-color: #B22222;
     cursor: pointer; 
 }
 
@@ -112,7 +113,7 @@
 }
 
 .about-cs {
-    background-color: #c00b35;
+    background-color: #B22222;
     text-align: center;
     padding: 4em 0;
 }
