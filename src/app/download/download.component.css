@@ -97,7 +97,7 @@
 }
 
 .download h6:hover {
-    color: #808080;
+    color: #B22222;
 }
 
 .edge-red {
@@ -140,7 +140,7 @@
 }
 
 .footer h5:hover{
-    color: #b0afb0;
+    color: #B22222;
 }
 
 .footer h6 {
@@ -164,7 +164,7 @@
 }
 
 .forum-link h6:hover, .forum-link a:hover  {
-    color: #b0afb0 !important;
+    color: #B22222 !important;
     cursor: pointer;
     text-decoration: none;
 }
