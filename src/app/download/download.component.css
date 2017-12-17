@@ -68,6 +68,11 @@
     text-align: center;
 }
 
+.download h5 {
+    margin: 20px 0;
+    color: #B22222;
+}
+
 .btn-download {
     border: 1px solid #B22222;
     color: #B22222;

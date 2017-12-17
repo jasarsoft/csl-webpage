@@ -20,6 +20,7 @@ export class DownloadComponent implements OnInit {
   serverText: string;
 
   downloadUrl: string;
+  downloadUrlOffline: string;
   downloaded: boolean = false;
 
   fileSize: number;
@@ -45,6 +46,7 @@ export class DownloadComponent implements OnInit {
     this.launcherVersion = this._info.launcherVersion;
     this.launcherReleased = this._info.launcherReleased;
     this.downloadUrl = this._info.downloadUrl;
+    this.downloadUrlOffline = this._info.downloadUrl;
     this.fileSize = this._info.fileSize;
     this.fileName = this._info.fileName;
     this.serverName = this._info.serverName;
@@ -53,6 +55,11 @@ export class DownloadComponent implements OnInit {
 
   goToDownload(): void {
     window.location.href=this.downloadUrl;
+    this.toggleDownloaded();
+  }
+
+  goToDownloadOffline(): void {
+    window.location.href=this.downloadUrlOffline;
     this.toggleDownloaded();
   }
 

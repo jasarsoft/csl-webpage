@@ -37,13 +37,15 @@
     <section id="download-launcher">
       <div class="download">
         <div class="row">
-          <div class="col"></div>
-          <div class="col-6">
-            <button  (click)="goToDownload()" type="button" class="btn btn-download">Download launcher</button>
+          <div class="col-md-12">
+            <button  (click)="goToDownload()" type="button" class="btn btn-download">Download launcher (online)</button>
             <h6 *ngIf="downloaded">{{ toastMsg }}</h6>
             <h6>{{ fileName }} | {{ fileSize }} mb</h6>
+            <h5>ili</h5>
+            <button  (click)="goToDownloadOffline()" type="button" class="btn btn-download">Download launcher (offline)</button>
+            <h6 *ngIf="downloaded">{{ toastMsg }}</h6>
+            <h6>setup-cs-offline.exe | 3.45 gb</h6>
           </div>
-          <div class="col"></div>
         </div>
       </div>
     </section>
